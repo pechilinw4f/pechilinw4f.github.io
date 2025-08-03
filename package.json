@@ -1,0 +1,43 @@
+{
+  "name": "vueorbital",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.16.10",
+    "@heroicons/vue": "^2.2.0",
+    "@promethee-earth/maplibre-cog-protocol": "file:../../GitHub/POC/maplibre-cog-protocol",
+    "@turf/turf": "^7.2.0",
+    "@watergis/maplibre-gl-terradraw": "^1.4.0",
+    "d3": "^7.9.0",
+    "geotiff": "^2.1.4-beta.0",
+    "globe.gl": "^2.43.0",
+    "i": "^0.3.7",
+    "maplibre-gl": "^5.6.1",
+    "npm": "^11.5.1",
+    "pinia": "^3.0.3",
+    "terra-draw": "^1.9.1",
+    "terra-draw-maplibre-gl-adapter": "^1.1.1",
+    "three": "^0.178.0",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "@types/node": "^24.1.0",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vue/eslint-config-typescript": "^14.6.0",
+    "@vue/tsconfig": "^0.7.0",
+    "eslint": "^9.31.0",
+    "eslint-plugin-vue": "^10.3.0",
+    "prettier": "^3.6.2",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.4",
+    "vue-tsc": "^2.2.12"
+  }
+}
